@@ -5,6 +5,6 @@ export default defineConfig({
    vite: {
     plugins: [tailwindcss()],
   },
-   site: 'https://yourdomain.com',
+   site: 'https://cv.siraphop.me/',
   integrations: [sitemap()]
 });
