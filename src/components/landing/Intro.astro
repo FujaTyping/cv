@@ -1,20 +1,24 @@
 ---
 // Images
 import { Image } from "astro:assets";
-import Avatar from "@/images/avatar.png";
 // Fundations
 import Text from "@/components/fundations/elements/Text.astro";
 import Wrapper from "@/components/fundations/containers/Wrapper.astro";
 const links = [
   {
+    label: "Mail",
+    url: "mailto:contact@siraphop.me",
+    text: "contact@siraphop.me",
+  },
+  {
     label: "Twitter",
-    url: "https://x.com/Mike_Andreuzza",
-    text: "@Mike_Andreuzza",
+    url: "https://x.com/FujaTyping",
+    text: "@FujaTyping",
   },
   {
     label: "GitHub",
-    url: "https://github.com/michael-andreuzza",
-    text: "@michael-andreuzza",
+    url: "https://github.com/FujaTyping",
+    text: "@FujaTyping",
   },
 ];
 ---
@@ -23,7 +27,7 @@ const links = [
   <Wrapper variant="base" class="lg:pt-24">
     <div class="flex items-center space-x-4">
       <Image
-        src={Avatar}
+        src={"https://avatars.githubusercontent.com/u/86290693?v=4"}
         alt="avatar"
         width="1000"
         height="1000"
@@ -34,19 +38,19 @@ const links = [
           tag="h1"
           variant="textBase"
           class="font-semibold text-zinc-900 dark:text-zinc-200"
-          >Michael Andreuzza</Text
+          >Siraphop Sukchu</Text
         >
         <Text
           tag="p"
           variant="textSM"
           class="text-sm text-zinc-600 dark:text-zinc-400"
-          >Product Designer in Åland Islands</Text
+          >Student in Thailand</Text
         >
         <div class="mt-2 flex">
           <a
-            href="https://michaelandreuzza.com"
+            href="https://siraphop.me"
             class="bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-200 dark:text-white text-xs h-6 items-center flex rounded-full px-3"
-            >michaelandreuzza.com ↗</a
+            >siraphop.me ↗</a
           >
         </div>
       </div>
