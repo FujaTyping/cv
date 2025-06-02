@@ -21,6 +21,7 @@ const knownSkills: SkillItem[] = [
 ];
 
 const learningSkills: SkillItem[] = [
+    { iconName: "rust", displayName: "Rust", gapClass: "gap-2" },
     { iconName: "sveltejs", displayName: "Svelte", gapClass: "gap-2" },
     { iconName: "supabase", displayName: "Supabase", gapClass: "gap-3" },
     { iconName: "go", displayName: "Go", gapClass: "gap-3" },
