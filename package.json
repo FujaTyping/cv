@@ -1,31 +1,17 @@
 {
-  "name": "cv",
-  "version": "0.1.0",
+  "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "dotenv": "^17.0.0",
-    "lucide-react": "^0.511.0",
-    "next": "15.3.3",
-    "octokit": "^5.0.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tech-stack-icons": "^2.1.0"
-  },
-  "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.3",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "nuxt": "^3.17.5",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
   }
 }
