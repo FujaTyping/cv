@@ -11,7 +11,6 @@ const knownSkills: SkillItem[] = [
     { iconName: "reactjs", displayName: "React", gapClass: "gap-3" },
     { iconName: "python", displayName: "Python", gapClass: "gap-3" },
     { iconName: "firebase", displayName: "Firebase", gapClass: "gap-2" },
-    { iconName: "tailwindcss", displayName: "Tailwind CSS", gapClass: "gap-2" },
     { iconName: "js", displayName: "Javascript", gapClass: "gap-4" },
     { iconName: "nextjs2", displayName: "NextJS", gapClass: "gap-2" },
     { iconName: "typescript", displayName: "Typescript", gapClass: "gap-3" },
@@ -63,7 +62,7 @@ function Skills() {
                         </div>
                         <div className="flex items-center gap-2 bg-neutral-700 rounded-md px-4 p-1">
                             <span>🇺🇸</span>
-                            <p>English - A1</p>
+                            <p>English - B2</p>
                         </div>
                     </div>
                 </div>

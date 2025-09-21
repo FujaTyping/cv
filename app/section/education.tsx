@@ -1,5 +1,5 @@
 import React from 'react'
-import YW from "@/assets/education/YW.png";
+import YW from "@/assets/education/YW.webp";
 //import PW from "@/assets/education/PW.png";
 import Link from 'next/link';
 import { Globe } from 'lucide-react';
